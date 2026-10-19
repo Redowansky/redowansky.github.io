@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redowansky — Hub</title>
+<meta name="description" content="Everything Redowansky builds, in one place.">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{--bg:#0d0b14; --bg2:#141021; --card:#1a1428; --card2:#211a33; --accent:#b388ff; --accent2:#7c4dff; --pink:#ff7ab8; --text:#f2eefb; --muted:#a89cc4;}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif; background:radial-gradient(1200px 600px at 80% -10%, #241a3f 0%, var(--bg) 55%) fixed, var(--bg); color:var(--text); min-height:100vh; display:flex; flex-direction:column; align-items:center; padding:0 20px 60px;}
+  .corner{position:fixed; top:18px; right:18px; z-index:10; width:74px; height:74px; border-radius:50%; border:3px solid var(--accent); box-shadow:0 0 24px rgba(179,136,255,.45); overflow:hidden; background:var(--card);}
+  .corner img{width:100%;height:100%;object-fit:cover;display:block}
+  .hero{ text-align:center; padding:72px 0 10px; max-width:640px; }
+  .hero .avatar{width:132px;height:132px;border-radius:50%;object-fit:cover; border:4px solid var(--accent); box-shadow:0 0 34px rgba(179,136,255,.5); margin-bottom:20px;}
+  .hero h1{font-size:2.9rem; letter-spacing:2px; font-weight:800; background:linear-gradient(90deg,var(--accent),var(--pink)); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .hero p{ color:var(--muted); margin-top:10px; font-size:1.02rem; line-height:1.55 }
+  .grid{display:grid; gap:16px; width:100%; max-width:520px; margin-top:38px;}
+  .btn{display:flex; align-items:center; gap:16px; background:linear-gradient(180deg,var(--card2),var(--card)); border:1px solid #332a52; border-radius:16px; padding:18px 20px; text-decoration:none; color:var(--text); transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease;}
+  .btn:hover{ transform:translateY(-3px); border-color:var(--accent); box-shadow:0 10px 30px rgba(124,77,255,.25) }
+  .btn .ico{ font-size:1.9rem; flex-shrink:0 }
+  .btn .txt b{ display:block; font-size:1.12rem; letter-spacing:.3px }
+  .btn .txt span{ color:var(--muted); font-size:.9rem }
+  .btn .arrow{ margin-left:auto; color:var(--accent); font-size:1.3rem }
+  .btn.soon{ opacity:.45; cursor:default }
+  .btn.soon:hover{ transform:none; box-shadow:none; border-color:#332a52 }
+  footer{ margin-top:54px; color:var(--muted); font-size:.82rem; text-align:center }
+  footer .dot{ color:var(--pink) }
+  @media(max-width:520px){ .hero h1{font-size:2.2rem} .corner{width:58px;height:58px;top:12px;right:12px} .hero .avatar{width:108px;height:108px} }
+</style>
+</head>
+<body>
+  <div class="corner"><img src="https://redowansky-bond.pages.dev/avatar.jpg" alt="Redowansky"></div>
+  <div class="hero">
+    <img class="avatar" src="https://redowansky-bond.pages.dev/avatar.jpg" alt="Redowansky">
+    <h1>Redowansky</h1>
+    <p>Everything I build lives here — projects, sites and experiments, all bonded in one place.</p>
+  </div>
+  <div class="grid">
+    <a class="btn" href="https://www.redowansky.cyou"><span class="ico">🧾</span><span class="txt"><b>A Friend's CV</b><span>Flabiyan Finney — resume website</span></span><span class="arrow">→</span></a>
+    <a class="btn" href="bot.html"><span class="ico">🤖</span><span class="txt"><b>Shop Bot</b><span>Telegram shopping bot — what it does &amp; how it works</span></span><span class="arrow">→</span></a>
+    <div class="btn soon"><span class="ico">🧪</span><span class="txt"><b>More experiments soon</b><span>The lab is warming up…</span></span></div>
+  </div>
+  <footer>Made with <span class="dot">●</span> by Redowansky</footer>
+</body>
+</html>
