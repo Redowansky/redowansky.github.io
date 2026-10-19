@@ -359,8 +359,8 @@ Instructions:
 							<img src="/images/fulls/04.jpg" alt="" />
 						</a>
 						<a href="/images/thumbnails/05.jpg" class="image filtered span-2" data-position="center">
-							<img src="/images/fulls/05.jpg" alt="" />
-						</a>
+						<img src="/images/fulls/05.jpg" alt="" />
+</a>
 						<a href="/images/thumbnails/06.jpg" class="image filtered span-2" data-position="center">
 							<img src="/images/fulls/06.jpg" alt="" />
 						</a>
@@ -380,3 +380,4 @@ Credits:
 		jQuery (jquery.com)
 		normalizeWheel (@miorel + @pieterv of Facebook)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+Hub moved here 2026-10-19.
